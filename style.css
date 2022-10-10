@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+button {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    border-radius: 10px;
+    border: solid purple 2px;
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(172, 246, 222);
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 1px -1px 10px 3px purple
+}
